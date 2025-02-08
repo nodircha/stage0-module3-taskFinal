@@ -6,6 +6,6 @@ public class NumberReverter {
         StringBuilder builder = new StringBuilder(str);
         builder.reverse();
         number = Integer.parseInt(builder.toString());
-        System.out.println(number);
+         System.out.println(number);
     }
 }
